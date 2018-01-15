@@ -1,7 +1,7 @@
 @extends('articles.elements')
 <div class="row">
     <div class="col-md-12 col-sm-12 col-xs-12">
-        <h3 style="text-align: center">Article list</h3>
+        <h3 style="text-align: center">Create article</h3>
         <form action="/articles" method="POST" enctype="multipart/form-data" class="form-horizontal form-label-left">
             {{ csrf_field() }}
             <div class="form-group">
